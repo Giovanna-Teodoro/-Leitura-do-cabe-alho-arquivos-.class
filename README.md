@@ -13,8 +13,6 @@ Constant Pool Count: Informa a quantidade de itens presentes na piscina de const
 2. Prepare o ambiente: Coloque qualquer arquivo .class válido (gerado pelo comando javac) na mesma pasta do script Python.  
 3. Execute o script:  Bash python leitor_cabecalho.py (Certifique-se de que o nome do arquivo .class no código corresponde ao arquivo que você deseja analisar).  
 
-📊 Exemplo de Saída O programa gerará um arquivo de texto (saida_cabecalho.txt) com um formato semelhante a este: 
-Plaintext === Analisador de Arquivo .class === Magic Number: CAFEBABE Minor Version: 0 Major Version: 52 (Java 8) Constant Pool Count: 19
 
 ✅ Validação Para atestar a corretude deste algoritmo, os resultados podem ser comparados com a ferramenta oficial de desestruturação do Java. Ao executar o comando nativo javap -v Arquivo.class no terminal, os mesmos valores de Magic Number, versões e tamanho da Constant Pool devem ser exibidos.  
 
