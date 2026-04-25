@@ -1,0 +1,1 @@
+# -Leitura-do-cabe-alho-arquivos-.class
